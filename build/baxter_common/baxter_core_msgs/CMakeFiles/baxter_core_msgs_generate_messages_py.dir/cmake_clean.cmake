@@ -1,0 +1,39 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/baxter_core_msgs_generate_messages_py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_URDFConfiguration.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AnalogIOState.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_SEAJointState.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AnalogIOStates.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndEffectorCommand.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndpointState.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AnalogOutputCommand.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_DigitalIOStates.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CameraSettings.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_HeadState.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndEffectorProperties.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CameraControl.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CollisionAvoidanceState.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndpointStates.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_JointCommand.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_NavigatorStates.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AssemblyStates.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CollisionDetectionState.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_NavigatorState.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_DigitalOutputCommand.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AssemblyState.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_DigitalIOState.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_HeadPanCommand.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_RobustControllerStatus.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndEffectorState.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/srv/_CloseCamera.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/srv/_ListCameras.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/srv/_SolvePositionIK.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/srv/_OpenCamera.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg/__init__.py"
+  "/root/baxter_ws/devel/lib/python2.7/dist-packages/baxter_core_msgs/srv/__init__.py"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang)
+  INCLUDE(CMakeFiles/baxter_core_msgs_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

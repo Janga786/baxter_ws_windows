@@ -1,0 +1,8 @@
+prefix=/root/baxter_ws/install
+
+Name: fort_lewis_demo
+Description: Description of fort_lewis_demo
+Version: 1.0.0
+Cflags: 
+Libs: -L/root/baxter_ws/install/lib 
+Requires: 
